@@ -114,6 +114,23 @@ a {
     text-align: center;
 }
 
+img {
+    display: block;
+    object-fit: scale-down;
+    max-width:1000px;
+    max-height:600px;
+    width: auto;
+    height: auto;
+}
+video {
+    display: block;
+    object-fit: scale-down;
+    max-width:1000px;
+    max-height:600px;
+    width: auto;
+    height: auto;
+}
+
 @media (max-width: 750px) {
     #background-video {height: 100vh;
   width: 5vw;
