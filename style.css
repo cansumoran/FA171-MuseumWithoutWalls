@@ -25,14 +25,22 @@
     width: 100%;
     color: #501a1a;
     position: relative;
-    text-align: center;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .text-box-info h1{
     font-size: 50px;
-    color: #501a1a;
+    color: #151544;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.text-box-info p{
+    font-size: 20px;
+    color: #414040;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 
 .text-box h1{
     font-size: 50px;
@@ -90,6 +98,21 @@ h1 {
 }
 
 h2 { font-size: 3rem; }
+
+h4 {
+    color: #151544;
+    font-size: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    color: #414040;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
 
 @media (max-width: 750px) {
     #background-video {height: 100vh;
@@ -149,7 +172,7 @@ h2 { font-size: 3rem; }
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
